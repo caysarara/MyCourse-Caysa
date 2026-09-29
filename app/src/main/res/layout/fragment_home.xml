@@ -2,11 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
+    android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
     tools:context=".HomeFragment">
+
+
+    <TextView
+        android:id="@+id/tv_home_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/home_title"
+        style="@style/CustomTextView18Bold" />
+
+    <ImageView
+        android:id="@+id/iv_home_illustration"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/home_image_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/vektor_praktikum_android" />
+
+    <TextView
+        android:id="@+id/tv_home_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:text="@string/home_desc"
+        style="@style/CustomTextViewBody" />
 
 
     <TextView

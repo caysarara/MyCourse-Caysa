@@ -1,0 +1,87 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="240dp"
+    android:viewportWidth="320"
+    android:viewportHeight="240">
+
+    <!-- Lingkaran latar -->
+    <path
+        android:fillColor="#C5CAE9"
+        android:pathData="M60,120a100,100 0 1 0 200,0a100,100 0 1 0 -200,0z" />
+
+    <!-- Bodi ponsel -->
+    <path
+        android:fillColor="#303F9F"
+        android:pathData="M124,30h72a14,14 0 0 1 14,14v152a14,14 0 0 1 -14,14h-72a14,14 0 0 1 -14,-14v-152a14,14 0 0 1 14,-14z" />
+
+    <!-- Layar ponsel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M124,46h72a6,6 0 0 1 6,6v136a6,6 0 0 1 -6,6h-72a6,6 0 0 1 -6,-6v-136a6,6 0 0 1 6,-6z" />
+
+    <!-- Robot Android: kepala -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M132,108a28,28 0 0 1 56,0z" />
+
+    <!-- Robot Android: badan -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M132,114h56v34a8,8 0 0 1 -8,8h-40a8,8 0 0 1 -8,-8z" />
+
+    <!-- Robot Android: lengan -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M123,116a3,3 0 0 1 6,0v28a3,3 0 0 1 -6,0z" />
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M191,116a3,3 0 0 1 6,0v28a3,3 0 0 1 -6,0z" />
+
+    <!-- Robot Android: kaki -->
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M142,156h10v20a5,5 0 0 1 -10,0z" />
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M168,156h10v20a5,5 0 0 1 -10,0z" />
+
+    <!-- Robot Android: antena -->
+    <path
+        android:pathData="M145,84L138,72M175,84L182,72"
+        android:strokeColor="#3DDC84"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+
+    <!-- Robot Android: mata -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M145,98a3,3 0 1 0 6,0a3,3 0 1 0 -6,0z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M169,98a3,3 0 1 0 6,0a3,3 0 1 0 -6,0z" />
+
+    <!-- Simbol kode < > -->
+    <path
+        android:pathData="M78,85L48,120L78,155"
+        android:strokeColor="#536DFE"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M242,85L272,120L242,155"
+        android:strokeColor="#536DFE"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Hiasan -->
+    <path
+        android:fillColor="#536DFE"
+        android:pathData="M55,45a5,5 0 1 0 10,0a5,5 0 1 0 -10,0z" />
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M251,50a4,4 0 1 0 8,0a4,4 0 1 0 -8,0z" />
+    <path
+        android:fillColor="#536DFE"
+        android:pathData="M259,200a6,6 0 1 0 12,0a6,6 0 1 0 -12,0z" />
+</vector>

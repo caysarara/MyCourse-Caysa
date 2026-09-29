@@ -3,6 +3,33 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tab_text_1">Home</string>
-    <string name="tab_text_2">Profile</string>
-    <string name="tab_text_3">Setting</string>
+    <string name="tab_text_2">Materi</string>
+    <string name="tab_text_3">Quiz</string>
+
+    <!-- Home -->
+    <string name="home_title">Selamat Datang di Kelas Praktikum Android</string>
+    <string name="home_image_desc">Ilustrasi robot Android pada layar ponsel dengan simbol kode</string>
+    <string name="home_desc">Kelas praktikum ini membahas dasar pengembangan aplikasi Android menggunakan Kotlin dan XML di Android Studio. Melalui latihan langsung di setiap pertemuan, mahasiswa belajar menyusun tampilan, berpindah antar halaman, hingga membuat dialog interaktif.</string>
+
+    <!-- Materi -->
+    <string name="materi_title">Materi Praktikum</string>
+    <string name="materi_subtitle">Daftar materi yang sudah diajarkan</string>
+    <string name="materi_layout_title">Layouting Android</string>
+    <string name="materi_layout_desc">Menyusun tampilan aplikasi dengan XML menggunakan LinearLayout, RelativeLayout, dan ConstraintLayout.</string>
+    <string name="materi_intent_title">Activity &amp; Intent</string>
+    <string name="materi_intent_desc">Membuat lebih dari satu halaman (Activity) dan berpindah antar halaman menggunakan Intent, termasuk mengirim data.</string>
+    <string name="materi_result_title">Activity Result</string>
+    <string name="materi_result_desc">Membuka Activity lain untuk meminta hasil, lalu menerima kembali datanya dengan Activity Result API.</string>
+    <string name="materi_picker_title">Date Picker &amp; Time Picker</string>
+    <string name="materi_picker_desc">Memilih tanggal dan waktu dari pengguna menggunakan DatePickerDialog dan TimePickerDialog.</string>
+    <string name="materi_alert_title">Alert Dialog</string>
+    <string name="materi_alert_desc">Menampilkan dialog konfirmasi atau peringatan beserta tombol aksinya menggunakan AlertDialog.</string>
+    <string name="materi_custom_dialog_title">Custom Dialog</string>
+    <string name="materi_custom_dialog_desc">Membuat dialog dengan tampilan sendiri melalui layout XML khusus.</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title">Quiz</string>
+    <string name="quiz_status_label">Status</string>
+    <string name="quiz_status">Quiz belum dilaksanakan</string>
+    <string name="quiz_desc">Quiz belum tersedia saat ini. Silakan tunggu informasi selanjutnya dari asisten praktikum.</string>
 </resources>
